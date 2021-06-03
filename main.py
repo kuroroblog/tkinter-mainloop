@@ -20,8 +20,9 @@ def getWidget(root):
     frame = tk.Frame(root)
 
     # frame Widget(Frame)を親要素として、text Widgetを作成する。
+    # text Widgetについて : https://kuroro.blog/python/bK6fWsP9LMqmER1CBz9E/
     text = tk.Text(frame)
-    # Widgetをループさせて、継続的にWidget表示させる。
+    # text Widgetをループさせて、継続的にtext Widget表示させる。
     text.mainloop()
 
 # 足し算を行う関数
